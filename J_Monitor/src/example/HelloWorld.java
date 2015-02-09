@@ -29,7 +29,12 @@ import java.util.List;
  */
 public class HelloWorld extends ExampleSupport {
 
-    public String execute() throws Exception {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public String execute() throws Exception {
         setMessage(getText(MESSAGE));
         return SUCCESS;
     }

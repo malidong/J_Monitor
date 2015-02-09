@@ -14,7 +14,7 @@ import com.win2er.jmonitor.service.UserManager;
 public class UserManagerImpl implements UserManager {
 
 	public void regUser(UserBean user) {
-		// TODO Auto-generated method stub
+
 		
 	}
 

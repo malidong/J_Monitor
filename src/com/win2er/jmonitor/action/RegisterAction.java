@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.wi2er.jmonitor.action;
+package com.win2er.jmonitor.action;
 
 import com.opensymphony.xwork2.ActionSupport;
 import com.win2er.jmonitor.beans.UserBean;

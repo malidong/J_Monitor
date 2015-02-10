@@ -31,12 +31,7 @@ public class UserDao implements IBaseDao {
 		session.save(obj);
 	}
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
 
 }
+
+

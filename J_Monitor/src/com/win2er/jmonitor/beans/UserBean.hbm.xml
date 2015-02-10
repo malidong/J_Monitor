@@ -7,6 +7,7 @@
 	<class name="UserBean" table="user_tb">
 		<id name="userId" column="userId">
 			<generator class="native"></generator>
+			<!-- <assigned class="native"></assigned> -->
 		</id>
 		<property name="username" column="userName" type="java.lang.String"
 			not-null="true" length="16"></property>

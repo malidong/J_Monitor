@@ -9,7 +9,7 @@
 </head>
 <body>
 
-	<s:form action="register">
+	<s:form action="register" name="register" method="post" namespace="/">
 		<s:textfield name="user.username" label="用户名"></s:textfield>
 		<s:password name="user.password" label="密码"></s:password>
 		<s:select list="#{'1':'男','0':'女'}" listKey="key" listValue="value"

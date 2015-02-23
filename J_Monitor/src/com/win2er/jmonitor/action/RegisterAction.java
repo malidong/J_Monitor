@@ -27,18 +27,21 @@ public class RegisterAction extends ActionSupport {
 	public void setUser(UserBean user) {
 		this.user = user;
 	}
-
+	
+	/*comment out for Spring
 	public IUserManager getUserManager() {
 		return userManager;
 	}
-
+	 */
+	
 	public void setUserManager(IUserManager userManager) {
 		this.userManager = userManager;
 	}
 
 	public String execute() {
 		try {
-			this.setUserManager(new UserManagerImpl());
+			//comment out for Spring
+			//this.setUserManager(new UserManagerImpl());
 			userManager.regUser(user);
 			return SUCCESS;
 

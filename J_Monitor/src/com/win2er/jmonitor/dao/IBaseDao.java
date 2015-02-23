@@ -1,13 +1,17 @@
 package com.win2er.jmonitor.dao;
 
 import org.hibernate.HibernateException;
-import org.hibernate.Session;
 
 public interface IBaseDao {
 
+	
 	public void saveObject(Object obj) throws HibernateException;
+	
+	//public void saveObject(Object obj) throws HibernateException;
 
-	public Session getSession();
-
-	public void setSession(Session session);
+	//comment out for Spring
+	//public Session getSession();
+	
+	//comment out for Spring
+	//public void setSession(Session session);
 }

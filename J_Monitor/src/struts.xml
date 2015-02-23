@@ -8,6 +8,7 @@
 <!-- 
     <constant name="struts.enable.DynamicMethodInvocation" value="false" />
     <constant name="struts.devMode" value="true" />
+    <constant name="struts.i18n.encoding" value="UTF-8" />
 -->
 
 	<include file="struts-default.xml" />  
@@ -24,7 +25,7 @@
             <exception-mapping exception="java.lang.Exception" result="error"/>
         </global-exception-mappings>
  -->
-        <action name="register" class="com.win2er.jmonitor.action.RegisterAction">  
+        <action name="register" class="regAction">  
             <result name="input">/Register.jsp</result>  
             <result name="success">/Success.jsp</result>  
             <result name="error">/Fail.jsp</result>  

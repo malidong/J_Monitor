@@ -6,7 +6,6 @@ package com.win2er.jmonitor.action;
 import com.opensymphony.xwork2.ActionSupport;
 import com.win2er.jmonitor.beans.UserBean;
 import com.win2er.jmonitor.service.IUserManager;
-import com.win2er.jmonitor.serviceImpl.UserManagerImpl;
 
 /**
  * @author SCI01520
@@ -28,12 +27,11 @@ public class RegisterAction extends ActionSupport {
 		this.user = user;
 	}
 	
-	/*comment out for Spring
+/*
 	public IUserManager getUserManager() {
 		return userManager;
 	}
-	 */
-	
+*/
 	public void setUserManager(IUserManager userManager) {
 		this.userManager = userManager;
 	}

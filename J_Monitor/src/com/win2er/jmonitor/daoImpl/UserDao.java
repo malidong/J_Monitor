@@ -3,7 +3,6 @@
  */
 package com.win2er.jmonitor.daoImpl;
 
-import org.hibernate.FlushMode;
 import org.hibernate.HibernateException;
 import org.springframework.orm.hibernate4.support.HibernateDaoSupport;
 

@@ -12,7 +12,7 @@
            http://www.springframework.org/schema/context  
            classpath:/org/springframework/context/config/spring-context-3.0.xsd
            http://www.springframework.org/schema/aop
-		http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
+		   http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
 			
 	<!-- 定义数据源的信息 -->
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
